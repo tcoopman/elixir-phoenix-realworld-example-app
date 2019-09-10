@@ -52,7 +52,8 @@ defmodule RealWorld.Mixfile do
       {:ex_machina, "~> 2.0", only: :test},
       {:ex_doc, "~> 0.16", only: :dev, runtime: false},
       {:plug, "~> 1.0"},
-      {:corsica, "~> 1.0"}
+      {:corsica, "~> 1.0"},
+      {:distillery, "~> 2.1"}
     ]
   end
 
